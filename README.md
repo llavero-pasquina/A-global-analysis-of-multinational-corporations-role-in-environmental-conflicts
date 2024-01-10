@@ -5,3 +5,5 @@ The code and data is freely available provided the source is duly referenced, an
 
 To access the raw conflict and company datasets, please submit a data request to the EJAtlas: 
 https://ejatlas.org/backoffice/cms/en/data-use-policy/
+
+It also contains supplementary figures and tables 
