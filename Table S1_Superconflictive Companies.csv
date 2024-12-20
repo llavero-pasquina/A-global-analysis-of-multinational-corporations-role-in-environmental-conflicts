@@ -1,0 +1,111 @@
+"Table S1. List of superconflictive companies in the EJAtlas. There are a total of 96 companies involved in more than 7 conflicts. Note that the EJAtlas is not an exhaustive compilation of environmental conflicts, and it contains regional and sectoral biases. Please refer to methods and supplementary methods for a full explanation.",,,,,,,
+#,Name,Number of conflicts,Country of Origin,Income Group,Conflicts Overseas,Category,UN Global Compact
+24,Sinohydro,22,China,China,yes,Water Management,Not engaged
+47,China Three Gorges Corporation,13,China,China,yes,Water Management,Not engaged
+49,Electricity Generating Authority of Thailand ,13,Thailand,Middle Income,yes,Water Management,Not engaged
+99,Andritz Group,8,Austria,High Income,yes,Water Management,Not engaged
+37,Odebrecht,16,Brazil,Middle Income,yes,Water Management,Delisted
+74,Camargo Correa,10,Brazil,Middle Income,yes,Water Management,Delisted
+25,Naturgy,22,Spain,High Income,yes,Water Management,Advanced
+29,Eletrobras,19,Brazil,Middle Income,yes,Water Management,Advanced
+44,Alstom,14,France,High Income,yes,Water Management,Advanced
+50,Veolia,13,France,High Income,yes,Water Management,Advanced
+52,Siemens,12,Germany,High Income,yes,Water Management,Advanced
+100,Coca-Cola,8,United States of America ,High Income,yes,Water Management,Advanced
+14,WeBuild,29,Italy,High Income,yes,Water Management,Active
+26,SUEZ,21,France,High Income,yes,Water Management,Active
+42,Sacyr,15,Spain,High Income,yes,Water Management,Active
+94,AECOM,8,Canada,High Income,yes,Water Management,Active
+102,Bharat Heavy Electricals,8,India,Low Income,yes,Water Management,Active
+92,FCC,8,Spain,High Income,yes,Waste Management,Active
+39,Areva,15,France,High Income,yes,Nuclear,Delisted
+13,EDF,29,France,High Income,yes,Nuclear,Advanced
+55,General Electric,12,United States of America ,High Income,yes,Nuclear,Advanced
+19,Rosatom,23,Russian Federation,Middle Income,yes,Nuclear,Active
+12,Vale,31,Brazil,Middle Income,yes,Mineral Ores and Building Materials Extraction,Not engaged
+41,Zijin,15,China,China,yes,Mineral Ores and Building Materials Extraction,Not engaged
+68,Grupo Mexico,11,Mexico,Middle Income,yes,Mineral Ores and Building Materials Extraction,Not engaged
+91,Grupo Luksic,8,Chile,High Income,yes,Mineral Ores and Building Materials Extraction,Not engaged
+5,Glencore,45,Switzerland,High Income,yes,Mineral Ores and Building Materials Extraction,Advanced
+6,Rio Tinto,42,United Kingdom,High Income,yes,Mineral Ores and Building Materials Extraction,Advanced
+15,BHP Billiton,27,United Kingdom,High Income,yes,Mineral Ores and Building Materials Extraction,Advanced
+16,Newmont,26,Canada,High Income,yes,Mineral Ores and Building Materials Extraction,Advanced
+18,Anglo Gold Ashanti,24,South Africa,Middle Income,yes,Mineral Ores and Building Materials Extraction,Advanced
+23,Anglo American,22,United Kingdom,High Income,yes,Mineral Ores and Building Materials Extraction,Advanced
+35,LafargeHolcim,16,France,High Income,yes,Mineral Ores and Building Materials Extraction,Advanced
+36,Barrick Gold,16,Canada,High Income,yes,Mineral Ores and Building Materials Extraction,Advanced
+57,Teck ,12,Canada,High Income,yes,Mineral Ores and Building Materials Extraction,Advanced
+60,Cemex,11,Mexico,Middle Income,yes,Mineral Ores and Building Materials Extraction,Advanced
+67,Sumitomo,11,Japan,High Income,yes,Mineral Ores and Building Materials Extraction,Advanced
+71,Tata,10,India,Low Income,yes,Mineral Ores and Building Materials Extraction,Advanced
+104,Posco,8,Republic of Korea,High Income,yes,Mineral Ores and Building Materials Extraction,Advanced
+80,Alcoa,10,United States of America ,High Income,yes,Mineral Ores and Building Materials Extraction,Active
+86,Pan American Silver,9,Canada,High Income,yes,Mineral Ores and Building Materials Extraction,Active
+101,CODELCO,8,Chile,High Income,yes,Mineral Ores and Building Materials Extraction,Active
+72,China Communication Construction Company,10,China,China,yes,Infrastructure and Built Environment,Not engaged
+76,China Harbour Engineering Company,10,China,China,yes,Infrastructure and Built Environment,Not engaged
+77,Carso Infraestructura y Construcción,10,Mexico,Middle Income,yes,Infrastructure and Built Environment,Not engaged
+78,China Huadian Engineering,10,China,China,yes,Infrastructure and Built Environment,Delisted
+51,Vinci,12,France,High Income,yes,Infrastructure and Built Environment,Advanced
+96,Acciona,8,Spain,High Income,yes,Infrastructure and Built Environment,Advanced
+63,Berkeley Minera España,11,Spain,High Income,yes,Industrial and Utilities conflicts,Not engaged
+83,Birla,10,India,Low Income,yes,Industrial and Utilities conflicts,Not engaged
+69,DuPont,10,United States of America ,High Income,yes,Industrial and Utilities conflicts,Advanced
+3,Chevron,51,United States of America ,High Income,yes,Fossil Fuels and Climate Justice/Energy,Not engaged
+8,ExxonMobil,39,United States of America ,High Income,yes,Fossil Fuels and Climate Justice/Energy,Not engaged
+45,AES Corporation,13,United States of America ,High Income,yes,Fossil Fuels and Climate Justice/Energy,Not engaged
+48,ConocoPhillips,13,United States of America ,High Income,yes,Fossil Fuels and Climate Justice/Energy,Not engaged
+58,China Energy Investment Corporation (国家能源投资集团),12,China,China,yes,Fossil Fuels and Climate Justice/Energy,Not engaged
+61,China National Petroleum Corporation,11,China,China,yes,Fossil Fuels and Climate Justice/Energy,Not engaged
+64,PDVSA,11,Venezuela,Low Income,yes,Fossil Fuels and Climate Justice/Energy,Not engaged
+66,PETRONAS,11,Malaysia,Middle Income,yes,Fossil Fuels and Climate Justice/Energy,Not engaged
+70,Consolidated Edison,10,United States of America ,High Income,yes,Fossil Fuels and Climate Justice/Energy,Not engaged
+81,Occidental Petroleum,10,United States of America ,High Income,yes,Fossil Fuels and Climate Justice/Energy,Not engaged
+85,Perenco,9,France,High Income,yes,Fossil Fuels and Climate Justice/Energy,Not engaged
+88,PowerChina,9,China,China,yes,Fossil Fuels and Climate Justice/Energy,Not engaged
+1,Royal Dutch Shell,98,Netherlands,High Income,yes,Fossil Fuels and Climate Justice/Energy,Advanced
+2,TotalEnergies,58,France,High Income,yes,Fossil Fuels and Climate Justice/Energy,Advanced
+7,Eni,39,Italy,High Income,yes,Fossil Fuels and Climate Justice/Energy,Advanced
+9,Enel ,34,Italy,High Income,yes,Fossil Fuels and Climate Justice/Energy,Advanced
+10,Engie,33,France,High Income,yes,Fossil Fuels and Climate Justice/Energy,Advanced
+20,Repsol,22,Spain,High Income,yes,Fossil Fuels and Climate Justice/Energy,Advanced
+30,Iberdrola,19,Spain,High Income,yes,Fossil Fuels and Climate Justice/Energy,Advanced
+33,Petrobras,17,Brazil,Middle Income,yes,Fossil Fuels and Climate Justice/Energy,Advanced
+34,Ecopetrol ,16,Colombia,Middle Income,yes,Fossil Fuels and Climate Justice/Energy,Advanced
+40,Sinopec,15,China,China,yes,Fossil Fuels and Climate Justice/Energy,Advanced
+43,Equinor ,14,Norway,High Income,yes,Fossil Fuels and Climate Justice/Energy,Advanced
+56,Gazprom,12,Russian Federation,Middle Income,yes,Fossil Fuels and Climate Justice/Energy,Advanced
+59,Vattenfall,12,Sweden,High Income,yes,Fossil Fuels and Climate Justice/Energy,Advanced
+62,YPF,11,Argentina,Middle Income,yes,Fossil Fuels and Climate Justice/Energy,Advanced
+87,PTT Public Company Limited,9,Thailand,Middle Income,yes,Fossil Fuels and Climate Justice/Energy,Advanced
+4,Nigerian National Petroleum Corporation,46,Nigeria,Low Income,yes,Fossil Fuels and Climate Justice/Energy,Active
+21,BP,22,United Kingdom,High Income,yes,Fossil Fuels and Climate Justice/Energy,Active
+22,Mitsui,22,Japan,High Income,yes,Fossil Fuels and Climate Justice/Energy,Active
+28,KEPCO,20,Republic of Korea,High Income,yes,Fossil Fuels and Climate Justice/Energy,Active
+31,Mistubishi,19,Japan,High Income,yes,Fossil Fuels and Climate Justice/Energy,Active
+38,RWE,15,Germany,High Income,yes,Fossil Fuels and Climate Justice/Energy,Active
+46,Allied Energy Systems Corporation ,13,United States of America ,High Income,yes,Fossil Fuels and Climate Justice/Energy,Active
+54,National Thermal Power Corporation,12,India,Low Income,yes,Fossil Fuels and Climate Justice/Energy,Active
+79,Oil and Natural Gas Corporation,10,India,Low Income,yes,Fossil Fuels and Climate Justice/Energy,Active
+90,Enbridge Inc,8,Canada,High Income,yes,Fossil Fuels and Climate Justice/Energy,Active
+95,Itochu,8,Japan,High Income,yes,Fossil Fuels and Climate Justice/Energy,Active
+82,Dole,10,United States of America ,High Income,yes,"Biomass and Land Conflicts (Forests, Agriculture, Fisheries and Livestock Management)",Not engaged
+65,Wilmar,11,Singapore,High Income,yes,"Biomass and Land Conflicts (Forests, Agriculture, Fisheries and Livestock Management)",Delisted
+11,Bayer,32,United States of America ,High Income,yes,"Biomass and Land Conflicts (Forests, Agriculture, Fisheries and Livestock Management)",Advanced
+32,Dow Chemical,18,United States of America ,High Income,yes,"Biomass and Land Conflicts (Forests, Agriculture, Fisheries and Livestock Management)",Advanced
+53,Cargill,12,United States of America ,High Income,yes,"Biomass and Land Conflicts (Forests, Agriculture, Fisheries and Livestock Management)",Active
+89,Verra,9,United States of America ,High Income,yes,Biodiversity conservation conflicts,Not engaged
+73,Federal Electricity Comission Mexico,10,Mexico,Middle Income,no,Water Management,Not engaged
+103,Jaypee Group,8,India,Low Income,no,Water Management,Not engaged
+93,Buenaventura,8,Peru,Middle Income,no,Mineral Ores and Building Materials Extraction,Active
+75,ICA,10,Mexico,Middle Income,no,Infrastructure and Built Environment,Delisted
+98,Petroecuador,8,Ecuador,Middle Income,no,Fossil Fuels and Climate Justice/Energy,Not engaged
+84,Pemex,9,Mexico,Middle Income,no,Fossil Fuels and Climate Justice/Energy,Delisted
+17,Oando,24,Nigeria,Low Income,no,Fossil Fuels and Climate Justice/Energy,Active
+27,PT Perusahaan Listrik Negara ,21,Indonesia,Low Income,no,Fossil Fuels and Climate Justice/Energy,Active
+97,ESKOM,8,South Africa,Middle Income,no,Fossil Fuels and Climate Justice/Energy,Active
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,
+,,,,,,,7
