@@ -258,11 +258,11 @@ library(stringr)
 
 #### 1. Import datasets ####
 
-setwd("C:/Users/Usuario/Desktop/Marcel/EJAtlas/Writings/Political Ecology Theory of the Firm/EJAtlas Company Analysis/Revision 202410 Tests")
+setwd("G:/My Drive/Writings/ZZ.Submitted/MNCs role in environmental conflicts/Revision 202410 Tests")
 companys<-read.csv("companies_company.csv", sep = ",")
 conflict_companys<-read.csv("companies_companyconflict.csv", sep = ",")
 countries <-read.csv("countries_country.csv", sep = ",")
-cases<-read.csv("EJAtlas_dataset_V2_2024-10(EJAtlas Data).csv", sep = ",")
+cases<-read.csv("EJAtlas_dataset_V2_2024-10.csv", sep = ",")
 Regions <- read.csv("Regions.csv")
 
 Ranking <- companys
@@ -315,7 +315,7 @@ Words<- c(Words,
           "Electricals",
           "PLC",
           "Petroleos",
-          "Petróleo",
+          "Petr?leo",
           "Corp.",
           "Corp",
           "Inc.",
@@ -324,7 +324,7 @@ Words<- c(Words,
           "Andhra",
           "Hindustan",
           "Tokyo",
-          "Québec",
+          "Qu?bec",
           "Saudi",
           "Nile",
           "Energias",
@@ -335,7 +335,7 @@ Words<- c(Words,
           "Silver",
           "Harbour",
           "Communication",
-          "Atómica",
+          "At?mica",
           "Organization",
           "Americas",
           "Jatropha",
@@ -359,7 +359,7 @@ Words<- c(Words,
           "SRI",
           "Congolaise",
           "Navy",
-          "Ingeniería",
+          "Ingenier?a",
           "Sai",
           "Owned",
           "ICE",
@@ -372,11 +372,11 @@ Words<- c(Words,
           "Comission",
           "Portugal",
           "Eko",
-          "Hidrelétrica",
+          "Hidrel?trica",
           "Laos",
           "Fondo",
           "Greenland",
-          "Española",
+          "Espa?ola",
           "Detroit",
           "Harvest",
           "Base",
@@ -386,15 +386,15 @@ Words<- c(Words,
           "Contractors",
           "Imperial",
           "Austral",
-          "Metalúrgica",
+          "Metal?rgica",
           "Fujian",
           "Ind",
           "Assam",
           "Noroeste",
           "Mutare",
           "Verde",
-          "Bogotá",
-          "Fé",
+          "Bogot?",
+          "F?",
           "Titanium",
           "Sarawak",
           "Flow",
@@ -412,7 +412,7 @@ Words<- c(Words,
           "Venezolana",
           "Senegal",
           "Aurora",
-          "Société",
+          "Soci?t?",
           "Manuelita",
           "Asturias",
           "Man",
@@ -520,7 +520,7 @@ Ranking$manual_search[which(is.na(Ranking$manual_search))] <- ""
 #### 6. Match company names ####
 
 Matches <- NULL
-for(i in 1:nrow(Ranking)){#!!!WARNING: EXPECT A LONG RUN TIME IN A PC!!!
+for(i in i:nrow(Ranking)){#!!!WARNING: EXPECT A LONG RUN TIME IN A PC!!!
   Matches <- c(Matches,paste(collapse = " ",
                              unique(c(fromLast = FALSE,
                                       
@@ -589,7 +589,7 @@ Ranking$Matches[which(Ranking$name %in% DELETE)] <- Ranking$id[which(Ranking$nam
 #Recalculate hits
 Ranking$Hits<-as.integer(lengths(regmatches(Ranking$Matches, gregexpr("\\b^| ", Ranking$Matches))))
 table(Ranking$Hits) #Distribution of hits
-TOTAL_HITS<-sum(Ranking$Hits) #Total number of hits
+TOTAL_HITS<-sum(Ranking$Hits-1)+2266 #Total number of hits
 
 #### 8. Append matching name matrix to Ranking ####
 
@@ -692,7 +692,7 @@ for(i in 1:nrow(Ranking)){
 
 #Salvaging those companies which are hit by companies which are going to be deleted#
 
-#Preparing the loop...
+#Preparing the loop
 RowsDELETE <- which(Ranking$DELETE %in% "DELETE")
 RowsNOTDELETE <- which(!Ranking$DELETE %in% "DELETE")
 
@@ -723,9 +723,6 @@ for(i in 1:nrow(companys)){
 }
 #List of all companies lost in the process. If it all works, it has to be 0
 recover <- companys[which(companys$check %in% "error"),]
-#Recover one company missing (YPF, id: 3628)
-#Ranking$companyIDs[which(Ranking$id %in% 3628)] <- "3628 2863 6200 6201"
-#Ranking <- Ranking[-which(Ranking$id %in% c("2863","6200","6201")),]
 
 #Remove some ":" introduced in conflictIDS
 Ranking$conflictIDs <- gsub("\\:"," ",Ranking$conflictIDs)
@@ -743,7 +740,7 @@ colnames(Ranking)[grep("country_id",colnames(Ranking))] <- "country"
 Summary <- Ranking[,match(c("id","name","slug","description","url","acronym","country","companyIDs","Num_companies","conflictIDs","Num_cases"),colnames(Ranking))]
 
 write.csv(Summary,"Summary.csv")
-
+Summary <- read.csv("Summary.csv")
 #### 13. Assign category to each company ####
 
 cases$Conflict.Id <- as.character(cases$Conflict.Id)
@@ -839,14 +836,14 @@ colnames(Summary)<-c("ID",colnames(Summary)[-1])
 
 #### 17. Save tables ####
 write.csv(Summary,"Summarywithattributes.csv")
-
+Summary <- read.csv("Summarywithattributes.csv")
 
 #### 18. Quality filter ####
 
 #Filter out cases without companies
 a <- which(cases$Conflict.Id %in% conflict_companys$conflict_id)
 nrow(cases)-length(a)
-33#There are 638 cases without companies assigned. Delete them
+#There are 638 cases without companies assigned. Delete them
 cases <- cases[a,]
 
 #Filter out cases older than 1947
